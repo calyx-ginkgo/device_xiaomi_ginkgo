@@ -743,17 +743,17 @@
     <!-- Vibrator pattern for feedback about a long screen/key press -->
     <integer-array name="config_longPressVibePattern">
         <item>0</item>
-        <item>1</item>
-        <item>40</item>
+        <item>19</item>
+        <item>34</item>
         <item>41</item>
     </integer-array>
 
     <!-- Vibrator pattern for feedback about touching a virtual key -->
     <integer-array name="config_virtualKeyVibePattern">
         <item>0</item>
-        <item>10</item>
-        <item>15</item>
-        <item>25</item>
+        <item>22</item>
+        <item>37</item>
+        <item>42</item>
     </integer-array>
 
     <!-- Vibrator pattern for a very short but reliable vibration for soft keyboard tap -->
@@ -859,7 +859,7 @@
      NOTE ! - Enable for devices that have a fast response proximity sensor (ideally < 300ms)-->
     <bool name="config_proximityCheckOnWake">true</bool>
     <bool name="config_proximityCheckOnWakeEnabledByDefault">true</bool>
-    
+
     <!-- Flag indicating whether the surface flinger is inefficient
          at performing a blur.  Used by parts of the UI to turn off
          the blur effect where it isn't worth the performance hit.
