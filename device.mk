@@ -525,7 +525,6 @@ PRODUCT_COPY_FILES += \
 
 # WiFi Display
 PRODUCT_PACKAGES += \
-<<<<<<< HEAD
     libpng.vendor \
     libprocessgroup.vendor
 
