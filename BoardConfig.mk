@@ -64,7 +64,6 @@ MALLOC_SVELTE_FOR_LIBC32 := true
 TARGET_CAMERA_OVERRIDE_FORMAT_FROM_RESERVED := true
 TARGET_NEEDS_RAW10_BUFFER_FIX := true
 TARGET_USES_QTI_CAMERA_DEVICE := true
-TARGET_USES_MIUI_CAMERA := true
 
 # Display
 TARGET_SCREEN_DENSITY := 440
@@ -190,9 +189,6 @@ WIFI_DRIVER_STATE_ON := "ON"
 QC_WIFI_HIDL_FEATURE_DUAL_AP := true
 WIFI_HIDL_FEATURE_DUAL_INTERFACE := true
 WPA_SUPPLICANT_VERSION := VER_0_8_X
-
-# MiuiCamera
--include vendor/xiaomi/miuicamera/BoardConfigAnx.mk
 
 # Inherit from the proprietary version
 -include vendor/xiaomi/ginkgo/BoardConfigVendor.mk
